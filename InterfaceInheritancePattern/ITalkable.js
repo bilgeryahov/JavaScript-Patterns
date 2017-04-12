@@ -1,3 +1,22 @@
+"use strict";
+
 /**
- * Created by Bilger on 12-Apr-17.
+ * Interface, which exposes two functions.
+ *
+ * @type {{sayMyName: (()), sayMyAge: (())}}
  */
+
+const ITalkable = {
+
+    sayMyName(){
+
+        return 'Not implemented';
+    },
+
+    sayMyAge(){
+
+        return -1;
+    }
+};
+
+module.exports = ITalkable;
